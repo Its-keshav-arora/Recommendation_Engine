@@ -40,7 +40,7 @@ const FoodCard = ({ item }: FoodCardProps) => {
         </CardHeader>
 
         <CardContent className="p-3 pt-1">
-          <p className="text-lg font-bold text-primary">₹{item.price}</p>
+          <p className="text-lg font-bold text-primary">${item.price}</p>
         </CardContent>
 
         <CardFooter className="p-3 pt-1">
