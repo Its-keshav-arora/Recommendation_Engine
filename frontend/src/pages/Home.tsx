@@ -34,7 +34,7 @@ const Home = () => {
 
       try {
         const res = await fetch(
-          `http://localhost:5000/api/users/search?q=${encodeURIComponent(searchQuery)}`
+          `http://localhost:5000/api/food/search?q=${encodeURIComponent(searchQuery)}`
         );
         const data = await res.json();
         if (data.success) {
