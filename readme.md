@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed:
 Clone the repository to get started:
 
 ```bash
-git clone [https://github.com/Its-keshav-arora/Recommendation_Engine.git](https://github.com/Its-keshav-arora/Recommendation_Engine.git)
+git clone https://github.com/Its-keshav-arora/Recommendation_Engine.git
 cd Recommendation_Engine
 ```
 
@@ -105,9 +105,6 @@ pip install torch transformers sentence-transformers fastapi uvicorn
 **Run the AI Server:**
 
 ```bash
-# First run to cache the model
-python embeddings.py 
-
 # Start the FastAPI Server
 uvicorn embeddings:app --host 127.0.0.1 --port 8000
 ```
